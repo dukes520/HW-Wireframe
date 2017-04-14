@@ -1,0 +1,88 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: #777;
+}
+
+
+header {
+  padding: 50px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #777;
+  background: #DEDCDC;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  content: #ebebeb;
+  float: center;
+}
+
+#nav {
+  padding: 50px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #777;
+  background: #DEDCDC;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  float: center;
+}
+
+#full {
+  clear: both;  
+  overflow: auto;
+  width: 100%
+}
+
+#aside {
+	float: right;
+	text-align: center;
+  padding-top: 40px;
+  margin-right: 150px;
+  color: #777;
+  background: #DEDCDC;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  width: 455px;
+  height: 300px;
+}
+
+#section {
+	padding: 40px;
+  margin-left: 150px;
+  color: #777;
+  background: #DEDCDC;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  width: 560px;
+  height: 300px;
+}
+
+#article {
+  float: left;
+  color: #DEDCDC;
+  background-color: #777
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ebebeb
+}
+
+#h1 {
+ 
+}
+
+#p {
+
+}
+
+footer {
+}
